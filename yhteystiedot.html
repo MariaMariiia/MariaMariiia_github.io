@@ -1,0 +1,78 @@
+﻿ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-image:url(https://cdn.pixabay.com/photo/2014/01/21/23/00/sparkling-249513_960_720.jpg)">
+  <nav class="navbar navbar-expand-sm bg-warning navbar-warning">
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Yleistä/etusivu</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="yhteystiedot.html">Yhteystiedot</a>
+    </li>
+<li class="nav-item">
+      <a class="nav-link" href="galleria.html">Galleria</a>
+    </li>
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Tanssityylit
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="khaleeji.html">Khaleeji</a>
+        <a class="dropdown-item" href="turkkilainen.html">Turkkilainen</a>
+        <a class="dropdown-item" href="egyptilainen.html">Egyptiläinen</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+   <div class="column">
+  <h3 align="center">Yhteystiedot</h3>
+  <p style="color:DeepPink" class="nimi"> Tanssikoulu Tanssahdellen</p>
+  <p>Osoite: Puistokatu 10, 70820 Kuopio</p>
+  <p>Puhelinnumero: 0400748988119</p>
+     <p>E-mail: tanssahdellen100@gmail.com</p>
+  </div>
+  <p></p>
+<img class="resize center" src="https://cdn.pixabay.com/photo/2018/01/15/19/40/belly-dancing-3084636_960_720.jpg"  alt="Itämainen tanssija">
+</div>
+</body>
+</html> 
+
+<style type="text/css">
+img.resize {
+  width:66%;
+  height:66%;
+  border-left: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-bottom: 10px;
+}
+
+p{
+  text-align: center;
+}
+
+.column{
+  padding-left:50px;
+  flex-direction:column;
+}
+
+p.nimi{
+  font-size:x-large;
+}
+</style>
